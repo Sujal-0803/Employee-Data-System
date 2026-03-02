@@ -3,7 +3,6 @@
 A Java desktop application to manage employee data efficiently, built using **Swing GUI** and developed in **Apache NetBeans**.
 
   <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e971028b-854d-4d66-ad6f-19e7bcbdbbb1" />
-/>
 
 ---
 
