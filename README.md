@@ -1,4 +1,4 @@
-# 🧑‍💼 Employee Management System
+# 🧑‍💼 Employee Data System
 
 A Java desktop application to manage employee data efficiently, built using **Swing GUI** and developed in **Apache NetBeans**.
 
