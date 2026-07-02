@@ -167,7 +167,6 @@ Add screenshots of:
 - Add Employee
 - Update Employee
 - Department Management
-- Search Functionality
 
 ---
 
@@ -179,7 +178,6 @@ Add screenshots of:
 - Password Reset
 - Audit Logs
 - REST API Integration
-- Dark Mode
 - Advanced Dashboard Analytics
 
 ---
