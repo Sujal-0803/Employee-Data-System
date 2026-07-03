@@ -1,4 +1,4 @@
-# Employee Data System
+# 👨‍💼 Employee Data System
 
 A full-stack web application developed to simplify employee record management within an organization. The system provides secure authentication, role-based access, employee management, department management, search functionality, pagination, and data export, offering an efficient and user-friendly solution for administrative tasks.
 
@@ -269,5 +269,4 @@ Passionate Java Full Stack Developer focused on building practical web applicati
 - 📍 Pune, Maharashtra, India
 
 ---
-
-⭐ If you found this project helpful, consider giving it a star.
+> Built by Sujal Maru | Employee Data System 2025
