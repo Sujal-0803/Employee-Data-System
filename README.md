@@ -159,6 +159,7 @@ http://localhost:8080/Employee-Data-System/
 
 ## 📸 Screenshots
 - Login Page
+
   <img width="849" height="805" alt="Screenshot 2026-07-03 014710" src="https://github.com/user-attachments/assets/658a61d1-c73e-4a8d-9ff3-2bc6c0a61069" />
 
 - Dashboard
