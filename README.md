@@ -168,9 +168,21 @@ http://localhost:8080/Employee-Data-System/
   <img width="1609" height="682" alt="Screenshot 2026-07-03 124021" src="https://github.com/user-attachments/assets/73aaa4bb-b862-41c0-a71d-03131409a4ea" />
 
 - Employee List
+
+  <img width="1915" height="912" alt="Screenshot 2026-07-03 015115" src="https://github.com/user-attachments/assets/24edfcca-30f8-4394-b791-e8978c7fa76e" />
+
 - Add Employee
+
+  <img width="1613" height="827" alt="Screenshot 2026-07-03 015141" src="https://github.com/user-attachments/assets/a0f50512-b1b3-48ef-b936-2f90701ab7d6" />
+
 - Edit Employee
+
+  <img width="1646" height="834" alt="Screenshot 2026-07-03 123305" src="https://github.com/user-attachments/assets/6e865a99-9ac2-40ff-b2e4-cfdcdc8fc350" />
+
 - Department Management
+
+  <img width="1596" height="609" alt="Screenshot 2026-07-03 123428" src="https://github.com/user-attachments/assets/2b29311b-5228-4736-a5a4-ebcc56d2c845" />
+
 
 ---
 
