@@ -4,18 +4,20 @@ A full-stack web application developed to simplify employee record management wi
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- Secure Login Authentication
-- Role-Based Access Control (Admin/User)
-- Employee Management (CRUD Operations)
-- Department Management
-- Employee Search Functionality
-- Pagination for Employee Records
-- Input Validation
-- Dashboard with Employee Statistics
-- CSV Data Export
-- Responsive User Interface
+- 🔐 **Admin Login** — Session-based authentication with AuthFilter protecting all routes
+- 📊 **Live Dashboard** — Real-time bar chart (avg salary by dept) + donut chart (Active vs Inactive)
+- 👥 **Employee CRUD** — Add, view, edit, delete employees with full server-side validation
+- 🔍 **Search, Filter & Pagination** — Search by name/email, filter by department and status, 5 per page
+- 🔃 **Toggle Status** — Click badge to flip Active ↔ Inactive with activity log entry
+- 🏢 **Department Management** — Add, edit, delete departments with employee count guard
+- 📋 **Employee Profile** — Dedicated profile page with activity log per employee and print support
+- 📁 **Export CSV** — Download filtered employee list as CSV file
+- 📝 **Activity Log** — Every add, edit, delete, status change is logged with timestamp
+- ✅ **Server-side Validation** — Name, email (duplicate check), phone (10-digit, starts 6-9), salary, date
+- 🌗 **Light / Dark Mode** — Toggle persisted via localStorage across all pages
+- 👨‍💻 **About Developer** — Developer profile page linked from footer
 
 ---
 
@@ -40,30 +42,68 @@ A full-stack web application developed to simplify employee record management wi
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
 Employee-Data-System/
 │
 ├── src/
-│   ├── controller/
-│   ├── dao/
-│   ├── model/
-│   ├── utility/
-│   └── filter/
+│   ├── com/eds/servlet/
+│   │   ├── LoginServlet.java
+│   │   ├── LogoutServlet.java
+│   │   ├── AuthFilter.java
+│   │   ├── DashboardServlet.java
+│   │   ├── ViewEmployeeServlet.java
+│   │   ├── AddEmployeeServlet.java
+│   │   ├── UpdateEmployeeServlet.java
+│   │   ├── DeleteEmployeeServlet.java
+│   │   ├── ProfileServlet.java
+│   │   ├── DepartmentServlet.java
+│   │   ├── ToggleStatusServlet.java
+│   │   ├── ExportCSVServlet.java
+│   │   ├── ChartDataServlet.java
+│   │   └── AboutServlet.java
+│   ├── com/eds/dao/
+│   │   ├── EmployeeDAO.java
+│   │   ├── DepartmentDAO.java
+│   │   ├── ActivityLogDAO.java
+│   │   └── AdminDAO.java
+│   ├── com/eds/model/
+│   │   ├── Employee.java
+│   │   ├── Department.java
+│   │   ├── ActivityLog.java
+│   │   └── Admin.java
+│   ├── com/eds/util/
+│   │   ├── DBConnection.java
+│   │   └── ValidationUtil.java
+│   └── com/eds/filter/
+│       └── AuthFilter.java
 │
 ├── WebContent/
 │   ├── css/
+│   │   └── style.css
 │   ├── js/
-│   ├── images/
+│   │   └── main.js
 │   ├── WEB-INF/
-│   └── *.jsp
+│   │   ├── lib/
+│   │   │   └── mysql-connector-j-9.7.0.jar
+│   │   └── web.xml
+│   ├── login.jsp
+│   ├── navbar.jsp
+│   ├── footer.jsp
+│   ├── index.jsp
+│   ├── employees.jsp
+│   ├── add.jsp
+│   ├── edit.jsp
+│   ├── profile.jsp
+│   ├── departments.jsp
+│   ├── about.jsp
+│   └── error.jsp
 │
 ├── database/
 │   └── employee_data_system.sql
 │
-├── README.md
-└── pom.xml (if Maven)
+└── README.md
 ```
 
 ---
@@ -210,7 +250,7 @@ This project is developed for educational and portfolio purposes.
 
 Passionate Java Full Stack Developer focused on building practical web applications and continuously learning new technologies.
 
-- 📧 dev.sujalmaru@gmail.com
+- 📧 sujalmaru2004@gmail.com
 - 📞 +91 79728 91795
 - 📍 Pune, Maharashtra, India
 
