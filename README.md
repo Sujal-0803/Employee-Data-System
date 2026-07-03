@@ -164,37 +164,51 @@ Employee-Data-System/
 
 ## 💻 Installation
 
-### 1. Clone the repository
+**1. Clone the repository**
 
-```bash
+​```
 git clone https://github.com/Sujal-0803/Employee-Data-System.git
-```
+​```
 
-### 2. Import the project
+**2. Import the project**
 
-Import the project into Eclipse IDE.
+- Open Eclipse IDE
+- File → Import → Existing Projects into Workspace
+- Browse to the cloned folder → Finish
 
-### 3. Configure Database
+**3. Configure Database**
 
-- Install MySQL
-- Create a database
-- Import the SQL file
-- Update JDBC credentials
+- Install MySQL 8 and open MySQL Workbench
+- Create a new database:
+​```sql
+CREATE DATABASE employee_db;
+​```
+- Import the SQL file from `database/employee_data_system.sql`
+- Update JDBC credentials in all DAO files if your password differs:
+​```java
+Connection conn = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/employee_db", "root", "your_password");
+​```
 
-### 4. Configure Apache Tomcat
+**4. Add MySQL Connector JAR**
 
-- Add Tomcat Server in Eclipse
-- Deploy the project
-- Start the server
+- Place `mysql-connector-j-9.7.0.jar` inside `WebContent/WEB-INF/lib/`
+- Right click project → Build Path → Configure Build Path → Add JARs → select it
 
-### 5. Run the application
+**5. Configure Apache Tomcat**
+
+- Window → Preferences → Server → Runtime Environments → Add → Apache Tomcat 10.1
+- Right click project → Run As → Run on Server → Select Tomcat 10.1 → Finish
+
+**6. Run the application**
 
 Open your browser and visit:
 
-```
-http://localhost:8080/Employee-Data-System/
-```
+​```
+http://localhost:8080/Employee_Data_System/
+​```
 
+> Demo Credentials: **admin** / **admin123**
 ---
 
 ## 📸 Screenshots
