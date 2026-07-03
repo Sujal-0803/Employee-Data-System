@@ -127,7 +127,7 @@ Employee-Data-System/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Employee-Data-System.git
+git clone https://github.com/Sujal-0803/Employee-Data-System.git
 ```
 
 ### 2. Import the project
