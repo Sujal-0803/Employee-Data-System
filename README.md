@@ -241,12 +241,6 @@ http://localhost:8080/Employee_Data_System/
 
 ---
 
-## 📄 License
-
-This project is developed for educational and portfolio purposes.
-
----
-
 ## 👨‍💻 Developer
 
  **Sujal Maru**
