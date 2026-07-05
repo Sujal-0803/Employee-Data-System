@@ -258,4 +258,6 @@ Passionate Java Full Stack Developer focused on building practical web applicati
 - 📍 Pune, Maharashtra, India
 
 ---
+This project is developed for educational and portfolio purposes.                                                     
+
 > Built by **Sujal Maru** | Employee Data System 2025
