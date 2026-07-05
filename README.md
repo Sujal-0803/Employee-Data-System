@@ -23,22 +23,11 @@ A full-stack web application developed to simplify employee record management wi
 
 ## 🛠️ Tech Stack
 
-### Frontend                                                     
-- HTML5                                                              
-- CSS3                                                                    
-- JavaScript                                      
-- JSP                                                       
-
-### Backend                                     
-- Java                                    
-- Servlets                                       
-- JDBC                                                
-
-### Database                                           
-- MySQL                                                       
-
-### Server                                           
-- Apache Tomcat                                             
+- **Frontend**: HTML5, CSS3, JavaScript, JSP                                                                                                                                       
+- **Backend**: Java, Servlets                                                                                                                        
+- **Database**: JDBC, MySQL                                                    
+- **Development Tools**: Eclipse IDE, Git & GitHub                                                                            
+- **Server**:  Apache Tomcat                                                                                                                    
 
 ---
 
